@@ -1,5 +1,9 @@
+require 'pry'
+
 class Hash
-  def keys_of(arguments)
-    # code goes here
+  def keys_of(*arguments)
+    :animals.each do |key, value|
+      binding.pry 
+    end 
   end
 end
