@@ -6,6 +6,7 @@ class Hash
     self.each do |key, value|
       value.each do |country|
         if country == arguments
+          binding.pry
           new_array << key 
         end 
       end 
