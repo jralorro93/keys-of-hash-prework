@@ -11,6 +11,5 @@ class Hash
       end 
     end 
     new_array
-    binding.pry
   end
 end
