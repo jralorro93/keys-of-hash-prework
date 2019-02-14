@@ -6,7 +6,7 @@ class Hash
     self.each do |key, value|
       arguments.each do |country|
         if value == country
-          new_array << key 
+          new_array << key  
         end 
       end 
     end 
