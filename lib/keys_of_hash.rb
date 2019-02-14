@@ -5,8 +5,7 @@ class Hash
     new_array = []
     self.each do |key, value|
       arguments.each do |country|
-        binding.pry
-        if country == arguments
+        if value == country
           new_array << key 
         end 
       end 
